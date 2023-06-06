@@ -12,7 +12,7 @@ class InvoiceViewSet(viewsets.ModelViewSet):
         return self.queryset.filter(created_by=self.request.user)
     
     def perform_create(self, serializer):
-        # Since user has only one team, hence .first
+        # Since user has only one team, hence .first, and the foreign key is user for team
         team = self.request.user.teams.first()
         invoice_number = team.first_invoice_number
         team.first_invoice_number = invoice_number + 1

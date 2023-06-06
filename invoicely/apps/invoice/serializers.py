@@ -22,7 +22,7 @@ class ItemSerializer(serializers.ModelSerializer):
 class InvoiceSerializer(serializers.ModelSerializer):  
 
     items = ItemSerializer(many=True)
-    # this fiel is not required to be filled out from frontend
+    # this field is not required to be filled out from frontend
     bankaccount = serializers.CharField(required=False)
 
     # this line will help us fetch name of client in Invoices.vue using invoice.client, if we do not add 

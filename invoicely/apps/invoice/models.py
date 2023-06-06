@@ -28,6 +28,7 @@ class Invoice(models.Model):
     sender_reference = models.CharField(max_length=255, blank=True, null=True)
     invoice_type = models.CharField(max_length=20, choices=CHOICES_TYPE, default=INVOICE)
     due_days = models.IntegerField(default=14)
+    # Here self means, we are referring to another instance of same object, even we can write Invoice here.
     is_credit_for = models.ForeignKey('self', on_delete=models.CASCADE, blank=True, null=True)
     is_credited = models.BooleanField(default=False)
     is_sent = models.BooleanField(default=False)
