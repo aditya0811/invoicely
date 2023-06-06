@@ -12,7 +12,6 @@ class ClientViewSet(viewsets.ModelViewSet):
 
 
     def get_queryset(self):
-        print("This is request: " + str(self.request.headers))
         return self.queryset.filter(created_by=self.request.user)
 
     def perform_create(self, serializer):
