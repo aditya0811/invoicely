@@ -68,12 +68,12 @@ npm install bulma
   </tr>
  <tr>
     <td>SIGNUP</td>
-    <td>/signup</td>
+    <td>/sign-up</td>
     <td>Signing up using username, password, email</td>
   </tr>
   <tr>
     <td>LOGIN</td>
-    <td>/login </td>
+    <td>/log-in </td>
     <td>Logging in using username, password</td>
   </tr>
  <tr>
@@ -81,44 +81,50 @@ npm install bulma
     <td>/dashboard/clients</td>
     <td>Display information about clients</td>
   </tr>
-   <tr>
+  <tr>
     <td>ADD CLIENTS</td>
     <td>/dashboard/add</td>
     <td>Allows user to add client</td>
   </tr>
-    <tr>
+  <tr>
     <td>VIEW CLIENT</td>
     <td>/dashboard/clients/pk</td>
     <td>To view details of client</td>
   </tr>
- </tr>
-    <tr>
+  <tr>
     <td>EDIT CLIENT</td>
     <td>/dashboard/clients/pk/edit</td>
     <td>To edit information about client</td>
   </tr>
-    <tr>
+  <tr>
     <td>INVOICES</td>
     <td>/dashboard/invoices</td>
     <td>List all the invoices</td>
   </tr>
-    <tr>
+  <tr>
     <td>INVOICE DETAILS </td>
     <td>/dashboard/invoices/pk</td>
     <td>List invoice items, client detail</td>
   </tr>
-    </tr>
-    <tr>
+  <tr>
     <td>DOWNLOAD INVOICE </td>
     <td>/dashboard/invoices/pk/generate_pdf/</td>
     <td>Downloads invoices</td>
   </tr>
-  </tr>
-    </tr>
-    <tr>
+  <tr>
     <td>ADD INVOICE</td>
     <td>/dashboard/invoices/add</td>
     <td>Add invoice with multiple items corresponding to a client</td>
+  </tr>
+  <tr>
+    <td>MY ACCOUNT</td>
+    <td>/dashboard/my-account</td>
+    <td>Team details and Sign-out option</td>
+  </tr>
+  <tr>
+    <td>EDIT TEAM</td>
+    <td>/dashboard/my-account/edit-team</td>
+    <td>Edit team for a user.</td>
   </tr>
 </table>
 
