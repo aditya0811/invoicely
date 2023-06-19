@@ -120,7 +120,7 @@ npm install bulma
   <tr>
     <td>MY ACCOUNT</td>
     <td>/dashboard/my-account</td>
-    <td>Team details and Sign-out option</td>
+    <td>Team details and sign-out option</td>
   </tr>
   <tr>
     <td>EDIT TEAM</td>
