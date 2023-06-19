@@ -27,7 +27,7 @@ Built an Invoicing Web Application with the following features
 <li>Displaying the list of items for an invoice</li>  
 <li>Pay button for the invoices</li> 
 <li>Edit team for a user, for now, one user only has one team.</li>
-<li>Downloading invoice as pdf (using wkhtmltopdf)</li> 
+<li>Downloading invoice as pdf (using wkhtmltopdf), displaying client, item, gross amount for all items, team details.</li> 
 </ol>
 
 ## Getting started 
