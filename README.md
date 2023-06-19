@@ -57,5 +57,6 @@ npm install bulma
  ```
 
 
-This project is inspired from following video by [code with stein](https://github.com/SteinOveHelset)https://github.com/SteinOveHelset
+This project is inspired from following video by [code with stein](https://github.com/SteinOveHelset)
+
 https://www.youtube.com/watch?v=WMR4qdYFW-8
