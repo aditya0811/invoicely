@@ -35,25 +35,27 @@ Built an Invoicing Web Application with the following features
 ### Libraries Required
 Use below code to install python related dependencies
 ```
+cd invoicely
 pip install -r requirements.txt
 ```
-Use below code to install Javascript-related dependencies
+Use below code to install Javascript-related dependencies. This is frontend project : https://github.com/aditya0811/InvoicelyWebApp
 ```
-cd frontend
-npm install
+npm install bulma
 ```
 
 
 ## Starting app 
 ### Backend 
  ```
+ cd invoicely
  python manage.py runserver
  ```
  ### Frontend 
  ```
- cd frontend
- npm run dev
+ cd invoicely_vue
+ npm run serve
  ```
 
 
-Inspired from code with stein 
+This project is inspired from following video by [code with stein](https://github.com/SteinOveHelset)https://github.com/SteinOveHelset
+https://www.youtube.com/watch?v=WMR4qdYFW-8
