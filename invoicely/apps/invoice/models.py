@@ -32,6 +32,7 @@ class Invoice(models.Model):
     due_days = models.IntegerField(default=14)
     # Here self means, we are referring to another instance of same object, even we can write Invoice here.
     is_credit_for = models.ForeignKey('self', on_delete=models.CASCADE, blank=True, null=True)
+    # If invoice has been credited
     is_credited = models.BooleanField(default=False)
     is_sent = models.BooleanField(default=False)
     is_paid = models.BooleanField(default=False)
