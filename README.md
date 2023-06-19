@@ -123,6 +123,6 @@ npm install bulma
 </table>
 
 
-This project is inspired by the [this video](https://www.youtube.com/watch?v=WMR4qdYFW-8) by [code with stein](https://github.com/SteinOveHelset)
+This project is inspired by [this video](https://www.youtube.com/watch?v=WMR4qdYFW-8) by [code with stein](https://github.com/SteinOveHelset)
 
 
