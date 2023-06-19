@@ -21,12 +21,12 @@ This application is part of an Invoicing Web Application. For each user, we have
 Built an Invoicing Web Application with the following features
 
 <ol>
-<li>Login/Sign-up</li> 
+<li>Login/Sign-up(Using Djoser)</li> 
 <li>Adding Clients</li> 
-<li>Adding items to a new invoices corresponding to a clients</li> 
+<li>Adding items to new invoices corresponding to clients</li> 
 <li>Displaying the list of items for an invoice</li>  
 <li>Pay button for the invoices</li> 
-<li>Edit team for a user, for now one user only has one team.</li>
+<li>Edit team for a user, for now, one user only has one team.</li>
 <li>Downloading invoice as pdf (using wkhtmltopdf)</li> 
 </ol>
 
@@ -34,12 +34,12 @@ Built an Invoicing Web Application with the following features
 
 
 ### Libraries Required
-Use below code to install python related dependencies
+Use the below code to install python related dependencies
 ```
 cd invoicely
 pip install -r requirements.txt
 ```
-Use below code to install Javascript-related dependencies. This is frontend project : https://github.com/aditya0811/InvoicelyWebApp
+Use the below code to install Javascript-related dependencies. [This is frontend project git hub repo]( https://github.com/aditya0811/InvoicelyWebApp)
 ```
 npm install bulma
 ```
