@@ -1,9 +1,14 @@
 # Invoicely
-This application is part of a Invoicing Web Application. We create invoices
+This application is part of an Invoicing Web Application. For each user, we have multiple clients, having multiple invoices, which have various items. 
 
 
 ## Tech Stack
 ### Frontend
+<p align="left">
+ <img alt="Vue.js" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D"/> 
+ <img alt="Bulma" src="https://img.shields.io/badge/-Bulma-FFFFFF?style=for-the-badge&logo=bulma"/> 
+</p>
+
 
 ### Backend
 <p align="left">
@@ -12,17 +17,16 @@ This application is part of a Invoicing Web Application. We create invoices
 </p>
 
 
-## Credit Card Management System
-Built a <a href="https://cred.club/">CRED</a> app Clone with the following features
+## Invoicing Web Application
+Built an Invoicing Web Application with the following features
 
 <ol>
-<li>Login/Register :heavy_check_mark:</li> 
-<li>Adding Cards :credit_card:</li> 
-<li>View Card Statements :receipt:</li> 
-<li>Smart Statements containing insights about different categorical features and top 10 vendors for a card :chart:</li>  
-<li>Pay bill :heavy_dollar_sign:</li> 
-<li>Get rewards in form of coins for timely payments :moneybag:</li> 
-<li>Send reminders for payments :envelope_with_arrow:</li> 
+<li>Login/Sign-up</li> 
+<li>Adding Clients</li> 
+<li>Adding Invoices corresponding o clients</li> 
+<li>Displaying the list of items for an invoice</li>  
+<li>Pay button for the invoices</li> 
+<li>Downloading invoice as pdf (using wkhtmltopdf)</li> 
 </ol>
 
 ## Getting started 
@@ -33,16 +37,12 @@ Use below code to install python related dependencies
 ```
 pip install -r requirements.txt
 ```
-Use below code to install Javascript related dependencies
+Use below code to install Javascript-related dependencies
 ```
 cd frontend
 npm install
 ```
 
-## Testing
-```
-python manage.py test
-```
 
 ## Starting app 
 ### Backend 
