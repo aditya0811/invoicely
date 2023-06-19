@@ -56,7 +56,73 @@ npm install bulma
  npm run serve
  ```
 
+ ## API Endpoints
+ Following are the api endpoints for this app.
+ 
 
-This project is inspired from following video by [code with stein](https://github.com/SteinOveHelset)
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>URL</th>
+    <th>Description</th>
+  </tr>
+ <tr>
+    <td>SIGNUP</td>
+    <td>/signup</td>
+    <td>Signing up using username, password, email</td>
+  </tr>
+  <tr>
+    <td>LOGIN</td>
+    <td>/login </td>
+    <td>Logging in using username, password</td>
+  </tr>
+ <tr>
+    <td>CLIENTS</td>
+    <td>/dashboard/clients</td>
+    <td>Display information about clients</td>
+  </tr>
+   <tr>
+    <td>ADD CLIENTS</td>
+    <td>/dashboard/add</td>
+    <td>Allows user to add client</td>
+  </tr>
+    <tr>
+    <td>VIEW CLIENT</td>
+    <td>/dashboard/clients/pk</td>
+    <td>To view details of client</td>
+  </tr>
+ </tr>
+    <tr>
+    <td>EDIT CLIENT</td>
+    <td>/dashboard/clients/pk/edit</td>
+    <td>To edit information about client</td>
+  </tr>
+    <tr>
+    <td>INVOICES</td>
+    <td>/dashboard/invoices</td>
+    <td>List all the invoices</td>
+  </tr>
+    <tr>
+    <td>INVOICE DETAILS </td>
+    <td>/dashboard/invoices/pk</td>
+    <td>List invoice items, client detail</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>DOWNLOAD INVOICE </td>
+    <td>/dashboard/invoices/pk/generate_pdf/</td>
+    <td>Downloads invoices</td>
+  </tr>
+  </tr>
+    </tr>
+    <tr>
+    <td>ADD INVOICE</td>
+    <td>/dashboard/invoices/add</td>
+    <td>Add invoice with multiple items corresponding to a client</td>
+  </tr>
+</table>
 
-https://www.youtube.com/watch?v=WMR4qdYFW-8
+
+This project is inspired by the [this video](https://www.youtube.com/watch?v=WMR4qdYFW-8) by [code with stein](https://github.com/SteinOveHelset)
+
+
