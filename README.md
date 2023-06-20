@@ -1,5 +1,5 @@
 # Invoicely
-This application is part of an Invoicing Web Application. For each user, we have multiple clients, having multiple invoices, which have various items. 
+This application is part of an Invoicing Web Application. For each user, we have multiple clients, having multiple invoices, which have various items. The aim is to track the invoice, if it is paid or not, and download the invoice for future reference.
 
 
 ## Tech Stack
