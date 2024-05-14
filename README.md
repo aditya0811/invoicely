@@ -64,7 +64,7 @@ npm install bulma
 <table style="width:100%">
   <tr>
     <th>Name</th>
-    <th>URL</th>
+    <th></th>
     <th>Description</th>
   </tr>
  <tr>
